@@ -12,4 +12,8 @@ npm install --save-dev gh-pages
 npm run deploy
 
 
-//////////////
+////////////// ateneo dev environment /////////////
+ateneo:
+{"npm":"8.19.4","node":"v16.20.2"}
+
+////////////////
