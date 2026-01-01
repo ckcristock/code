@@ -14,4 +14,13 @@ php artisan route:cache
 php artisan view:cache
 
 
-/////////////////////////////////////////////////////
+//////////////////////////// tinker create user ///////////////////////////
+
+>php artisan tinker
+
+use App\Models\User;
+User::create([
+    'name' => 'Admin',
+    'email' => 'admin@mail.com',
+    'password' => bcrypt('12345678'),
+]);
