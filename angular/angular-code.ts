@@ -16,4 +16,17 @@ npm run deploy
 ateneo:
 {"npm":"8.19.4","node":"v16.20.2"}
 
-////////////////
+//////////////// Ejecutar Compodoc (comando ideal) ////////////
+
+Desde la raíz del proyecto:
+
+npx @compodoc/compodoc -p tsconfig.app.json -s
+
+
+Si no existe tsconfig.app.json, usa:
+
+npx @compodoc/compodoc -p tsconfig.json -s
+
+luego: http://localhost:8080/ - Panel izquierdo - Rutas
+
+//////////////////////////////////////////////////////
