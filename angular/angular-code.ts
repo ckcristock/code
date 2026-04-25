@@ -16,6 +16,15 @@ npm run deploy
 ateneo:
 {"npm":"8.19.4","node":"v16.20.2"}
 
+
+///////// node version manager /////////////////////
+
+nvm list
+
+nvm use 16
+
+///////////////////////////////////////////////////
+
 //////////////// Ejecutar Compodoc (comando ideal) ////////////
 
 Desde la raíz del proyecto:
